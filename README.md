@@ -1,5 +1,5 @@
 MatchboxAI is learning Blackjack.
-Please note thar this AI is in very early development.
+Please note that this AI is in very early development.
 
 If you run the AI without a file in the same folder with the name 
 "training_saves.py", the AI will create a file with that name.
@@ -9,4 +9,4 @@ The progress file I provided here has a bit of learning progress if you dont wan
 but just play against the AI.
 
 The console will also print out the learning progress before and after the
-game to see, what changed.
+game to see, what has changed.
