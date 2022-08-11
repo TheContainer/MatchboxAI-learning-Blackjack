@@ -1,4 +1,5 @@
 MatchboxAI is learning Blackjack.
+Please note thar this AI is in very early development.
 
 If you run the AI without a file in the same folder with the name 
 "training_saves.py", the AI will create a file with that name.
