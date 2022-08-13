@@ -9,7 +9,6 @@ ai_play =[]
 try:
 	from training_saves import *
 	print('importing training_saves succesfully.\n')
-	progress = open('training_saves.py', 'w')
 	Box1
 except:
 	print('failed importing training_saves, creating file...')
@@ -323,7 +322,8 @@ Conclusion()
 
 print("Box1 = " + str(Box1) + "\nBox2 = " + str(Box2) + "\nBox3 = " + str(Box3) + "\nBox4 = " + str(Box4) + "\nBox5 = " + str(Box5) + "\nBox6 = " + str(Box6) + "\nBox7  = " + str(Box7) + "\nBox8 = " + str(Box8) + "\nBox9 = " + str(Box9) + "\nBox10 = " + str(Box10) + "\nBox11 = " + str(Box11) + "\nBox12 = " + str(Box12) + "\nBox13 = " + str(Box13) + "\nBox14 = " + str(Box14) + "\nBox15 = " + str(Box15) + "\nBox16 = " + str(Box16) + "\nBox17 = " + str(Box17) + "\nBox18 = " + str(Box18) + "\nBox19 = " + str(Box19) + "\nBox20 = " + str(Box20))
 
-progress.write("Box1 = " + str(Box1) + "\nBox2 = " + str(Box2) + "\nBox3 = " + str(Box3) + "\nBox4 = " + str(Box4) + "\nBox5 = " + str(Box5) + "\nBox6 = " + str(Box6) + "\nBox7  = " + str(Box7) + "\nBox8 = " + str(Box8) + "\nBox9 = " + str(Box9) + "\nBox10 = " + str(Box10) + "\nBox11 = " + str(Box11) + "\nBox12 = " + str(Box12) + "\nBox13 = " + str(Box13) + "\nBox14 = " + str(Box14) + "\nBox15 = " + str(Box15) + "\nBox16 = " + str(Box16) + "\nBox17 = " + str(Box17) + "\nBox18 = " + str(Box18) + "\nBox19 = " + str(Box19) + "\nBox20 = " + str(Box20))
+progress = open('training_saves.py', 'w')
 
+progress.write("Box1 = " + str(Box1) + "\nBox2 = " + str(Box2) + "\nBox3 = " + str(Box3) + "\nBox4 = " + str(Box4) + "\nBox5 = " + str(Box5) + "\nBox6 = " + str(Box6) + "\nBox7  = " + str(Box7) + "\nBox8 = " + str(Box8) + "\nBox9 = " + str(Box9) + "\nBox10 = " + str(Box10) + "\nBox11 = " + str(Box11) + "\nBox12 = " + str(Box12) + "\nBox13 = " + str(Box13) + "\nBox14 = " + str(Box14) + "\nBox15 = " + str(Box15) + "\nBox16 = " + str(Box16) + "\nBox17 = " + str(Box17) + "\nBox18 = " + str(Box18) + "\nBox19 = " + str(Box19) + "\nBox20 = " + str(Box20))
 
 progress.close()
